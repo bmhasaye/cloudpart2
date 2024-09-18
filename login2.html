@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cloud</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #87CEEB;
+            margin: 0;
+            padding: 0;
+          
+            } .container {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+                   .background-clip{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+        @media (max-aspect-ratio:100/9.9){
+            .background-clip{
+                width: auto;
+                height: 100%;
+            }
+        }
+        .login-box {
+           
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 300px;
+        }
+
+        .login-box h2 {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+        .login-box input {
+            width: 95%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+       
+
+        .login-box button {
+            background-color: #1E90FF;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .login-box button:hover {
+            background-color: #4682B4;
+        }
+
+        .forgot-password {
+            display: block;
+            margin-top: 10px;
+            color: #1E90FF;
+            text-decoration: none;
+        }
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <video autoplay loop muted plays-inline class="background-clip">
+            <source src="./cloudvideo2.mp4"type="video/mp4">
+        </video>
+        <div class="login-box"> 
+            <h2>LOGIN</h2>
+            <form>
+                <label for="username">Username (student ID)</label>
+                <input type="text" id="username" name="username" placeholder="Enter Username" required>
+
+                <label for="password">Password (PRN No.)</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password" required>
+
+             <button  href="home2.html" class="home" type="submit">Login</button></a>
+              
+                <a href="otp.html" class="forgot-password">Forgot Password?</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
+

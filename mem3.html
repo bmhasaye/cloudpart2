@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events Page</title><style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+        }
+       
+         body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #99ccff, #776ef5);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .container {
+            background: #2c0cbd;
+            border-radius: 15px;
+            padding: 50px;
+            width: 300px;
+            text-align: center;
+            justify-content: center;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            position: relative;
+            align-items: center;
+           
+        }
+        
+       
+        label {
+            display: block;
+            font-size: 1rem;
+            margin-bottom: 10px;
+            text-align: left;
+            margin-left: 30px;
+        }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0f0f0f;
+    background-image: url("cloud10.jpeg");
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Header Section */
+.header {
+    background-color: #090b97;
+    color: #1b1a1a;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #f3f6f8;
+}
+
+.title {
+    font-size: 24px;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.menu-btn, .search-btn {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Events Section */
+.events-container {
+    padding: 10px;
+}
+
+.event {
+    margin-bottom: 10px;
+}
+
+.event img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Bottom Navigation */
+.bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #070480;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+    text-align: center;
+    color: #0a0a0a;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.label {
+    display: block;
+    font-size: 12px;
+    margin-top: 5px;
+}
+    </style>
+    <link rel="stylesheet" href="event.css">
+</head>
+
+<body>
+   
+    <div class="header">
+        <button class="menu-btn">&#9776;</button>
+        <h1 class="title"> Join Our Membership!</h1>
+        <button class="search-btn">&#128269;</button>
+    </div>
+
+    <div class="container">
+       
+        <div class="tier">
+            <h2>Tier 1:</h2>
+            <input type="text" id="name" name="name" required><br><br>
+        </div>
+        <div class="tier">
+            <h2>Tier 2:</h2>
+            <input type="text" id="name" name="name" required><br><br>
+        </div>
+        <div class="tier">
+            <h2>Tier 3:</h2>
+            <input type="text" id="name" name="name" required><br><br>
+        </div>
+        </div>
+
+    <div class="bottom-nav">
+        <div class="nav-item">
+            <span class="icon">💧</span>
+            <span class="label">Drop</span>
+        </div>
+        <div class="nav-item">
+            <span class="icon">📘</span>
+            <span class="label">Course</span>
+        </div>
+        <div class="nav-item">
+            <span class="icon">🎉</span>
+            <span class="label">Events</span>
+        </div>
+        <div class="nav-item">
+            <span class="icon">🔍</span>
+            <span class="label">Search</span>
+        </div>
+    </div>
+</body>
+</html>
